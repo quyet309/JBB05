@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buổi2.css">
+</head>
+<body>
+
+    <h2>Buổi 2 JSA05</h2>
+    <div id="bg">
+        <div>
+            <div>
+                HOW IT WORK-SIMPLE AS 1,2,3
+
+
+
+
+
+            </div>
+            <div>line</div>
+
+            <div class="sub-content">
+                <div>
+                    <img>
+                </div>
+                <div>
+
+                    <div>
+                        <div>
+                            icon
+                        </div>
+                        <div>
+                            content
+                        </div>
+                    </div>
+                    <div>
+                        ggplay
+                        <div>
+                            <div>
+                                icon
+                            </div>
+                            <div>
+                                get it on
+                            </div>
+                        </div>
+                        appstore
+                    </div>
+                </div>
+              
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    
+</body>
+</html>

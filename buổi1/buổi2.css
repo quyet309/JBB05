@@ -1,0 +1,15 @@
+.sub-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#bg{
+    background-color: white;
+    
+}
