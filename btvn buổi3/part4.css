@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+    padding-top: 3rem;
+}
+.content1{
+    
+    
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3rem;
+    float: left;
+}
+.content2{
+    float: left;
+    
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3rem;
+    float: left;
+}
+.content3{
+    float: left;
+   
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3rem;
+    float: left;
+}
+.content4{
+    float: left;
+    
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 3rem;
+    float: left;
+}
+.main-content{
+    display: flex;
+    padding-top: 5rem;
+}

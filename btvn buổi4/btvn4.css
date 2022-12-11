@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+.ul{
+    display: flex;
+
+}
+.content1{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}
+.content2{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}
+.content3{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}
+.content4{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}
+.content5{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}
+.content6{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 2rem;
+}

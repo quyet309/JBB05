@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.appi img{
+    width:200px;
+
+}
+.main-content{
+    display: flex;
+    padding-left: 15rem;
+
+}
+.all-content{
+    padding-top: 2rem;
+    
+}
+.say{
+    padding-left: 3rem;
+    padding-top: 7rem;
+}
