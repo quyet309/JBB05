@@ -36,7 +36,10 @@
 // jsQuery.classList.toggle('jv')
     
 // }, 500);
-const myAwesomeArray = [1, 2, 3, 4, 5]
+// const myAwesomeArray = [1, 2, 3, 4, 5]
 
-myAwesomeArray.reduce((total, value) => total * value, 10)
+// myAwesomeArray.reduce((total, value) => total * value, 10)
 
+const ax = [1,2,3,4,5, 'a', 'b', 'c', 'd', 'e']
+ const bx=ax.splice(0,4,"hello world")
+ console.log(ax)

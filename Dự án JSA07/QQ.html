@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping-cart</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+       
+     <link rel="stylesheet" href="QQ.css" /> 
+
+      
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+          
+            <div id="nato">
+                <img src="./assets/images/Logo.png" alt="" />
+            </div>
+            <div class="content-nav">
+                <ul>
+                    <li><a href="QQ.HTML">Trang Chủ</a></li>
+                   
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li><a href="event.html">Sự kiện</a></li>
+                    <li>
+                    <a href="signupin.html">Đăng nhập</a>
+                   
+
+                
+                </li>
+                <form>
+                    
+             
+                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>s
+                </form>
+                
+                </ul>
+              
+               
+             
+            </div>
+            <!-- The Modal -->
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                Giỏ Hàng
+            </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                           
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div> 
+            
+        </nav>
+        
+
+    </header>
+
+   
+<html>
+<head>
+     
+    
+    <section class="wrapper">
+        <div class="products">
+            <ul>
+                <!-- < ảnh 1 --> 
+                 <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic1.jpg"
+                            alt=""  id="line">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Tớ thích cậu hơn cả Havard</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">49000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>  
+                     
+                  <div id="main" >
+                   <div class="product">
+                       <button id="demo">X  </button>   
+                   </div>
+                   <img class="img_ex focus_product"
+                         src="./assets/images/Pic1.jpg"
+                         alt="">
+                       
+               </div> 
+                <!-- Ảnh 2 --> 
+                 </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic2.jpg"
+                            alt="" id="liner">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Cây cam ngọt của tôi</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">49000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    
+                
+                 
+                </li> 
+                 <!-- Ảnh 3 --> 
+                 <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic3.jpg"
+                            alt="" id="linerr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Nếu chỉ còn một ngày để sống</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">59000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    
+                       
+                </li>
+                 <!-- Ảnh 4  -->
+                 <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic4.jpg"
+                            alt="" id="linerrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Chú bé mang PYJAMA sọc</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">69000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    
+                </li> 
+                <!-- Ảnh 5 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic5.jpg"
+                            alt="" id="linerrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Đi tìm Dora
+                        </h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">79000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                   
+                </li>
+                <!-- ẢNH 6 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic6.jpg"
+                            alt="" id="linerrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Nhà giả kim</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">100000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                  
+                </li>
+                <!-- Ảnh 7 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic7.jpg"
+                            alt="" id="linerrrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Kim các tự</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">150000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                   
+                </li> 
+                <!-- <-- Ảnh 8 --> 
+                 <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="./assets/images/Pic8.jpg"
+                            alt="" id="linerrrrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Đáp án thời gian</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">35000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div> 
+                    </div>
+                   
+                </li>
+
+            </ul>
+        </div>
+       
+          
+          <div id="wrapper">
+            <div class="headline">
+              <h5 >
+                Sản phẩm bán chạy
+              </h5>
+            </div>
+            <div class="products"> 
+                <ul>
+                    <!-- ảnh 1 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic9.jpg"
+                                alt=""  id="line">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Những cậu bé can đảm thế</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">45000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div> 
+                        
+                   <!-- Ảnh 2 -->
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic10.jpg"
+                                alt="" id="liner">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đừng nói với anh ấy tôi vẫn còn nhớ</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">42000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                       
+                     
+                    </li>
+                    <!-- Ảnh 3 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic11.jpg"
+                                alt="" id="linerr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Sống vốn đơn thuần</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">51000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                       
+                          
+                    </li>
+                    <!-- Ảnh 4 -->
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic12.jpg"
+                                alt="" id="linerrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đẹp và Buồn</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">30000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <!-- Ảnh 5 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic13.jpg"
+                                alt="" id="linerrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đường xanh viễn xứ
+                            </h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">41000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                       
+                    </li>
+                    <!-- ẢNH 6 -->
+                     <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic14.jpg"
+                                alt="" id="linerrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đạo tình(1)</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">115000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                       
+                    </li> 
+                    <!-- Ảnh 7 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic15.jpg"
+                                alt="" id="linerrrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đạo tình(2)</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">115000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        
+                    </li> 
+                    <!-- Ảnh 8 -->
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="./assets/images/Pic16.jpg"
+                                alt="" id="linerrrrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Đi tìm lẽ sống</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">78000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        
+                       
+                     </li>
+    
+                </ul>
+            </div> 
+           
+            
+    </section>
+     
+   <footer>
+        <div class="footer-item">
+           
+            <div class="social-footer">
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100079317026136">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a></li>
+                   <hr>
+                   <hr>
+                
+                    <hr>
+                    
+                    <li><a target="_blank" href="https://www.google.com/intl/vi/gmail/about/">
+                      <i class="fa fa-envelope-o"></i>
+                       
+                      <a href="tel:(028) 2253 8549">
+                          <i class="fa fa-phone"></i>
+                          <span>0868733056</span></a>
+            </div>
+        </div>
+      </footer>
+      <body>
+      <script src="Cash.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+</html>

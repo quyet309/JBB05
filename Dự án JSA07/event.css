@@ -1,0 +1,149 @@
+#uto{
+  background-color: rgb(240, 107, 198);
+}
+/* header */
+nav {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  background: #e35ebb;
+}
+
+nav .content-nav {
+  display: flex;
+  line-height: 2rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+nav .content-nav ul {
+  display: flex;
+  padding: 15px;
+}
+
+nav .content-nav ul li a {
+  text-decoration: none;
+  color: #43433e;
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-weight: 1000;
+}
+
+nav .content-nav ul li a:hover {
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+#nato img{
+  width:150px
+}
+.footer-item {
+  padding: .5rem 2rem;
+  background: #e45fd9;
+  display: flex;
+
+}
+
+.footer-item .img-footer {
+  align-items: center;
+  display: flex;
+}
+
+.footer-item .img-footer img {
+  width: 100%;
+}
+
+.footer-item .social-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footer-item .social-footer li a {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.footer-item .social-footer li:last-child {
+  margin-left: .5rem;
+}
+
+
+
+* {
+  box-sizing:border-box
+}
+h2 {
+  text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+  
+    display: none;
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: #d21515;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+ 
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #d11616;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.headline{
+  text-align: center;
+    font-size: 18px;
+    color: #c78b00;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 2rem;
+}
+.quote{
+  margin:2rem;
+  padding:2rem;
+}

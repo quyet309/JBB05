@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Đăng ký tài khoản mới</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="signup.css" rel="stylesheet" type="text/css"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav>
+          
+            <div id="nato">
+                <img src="tải xuống.png" alt="" />
+            </div>
+            <div class="content-nav">
+                <ul>
+                    <li><a href="6.HTML">Trang Chủ</a></li>
+                    
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li><a href="giới thiệu.html">Giới Thiệu</a></li>
+                    <li><a href="signupin.html">Đăng nhập</a></li>
+                </ul>
+                </div>
+                </nav>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Tạo tài khoản MyMarket</h1>
+                
+                <span>hoặc dùng email bạn để đăng ký</span>
+                <input type="text" placeholder="Name" id="name" />
+                <input type="email" placeholder="Email"  id="email"/>
+                <input type="password" placeholder="Password" id="pass" />
+                <input type="nhập lại password" placeholder="nhập lại Password" id="passed" />
+                <button onclick="checkEmpty(),handleSignup()" id="dangky">đăng ký</button>
+            </form>
+            
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Đăng nhập</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>hoặc dùng tài khoản của bạn</span>
+                <input type="email" placeholder="Email" id="emal" />
+                <input type="password" placeholder="Password" id="pas" />
+                <a href="#">Quên mật khẩu</a>
+                <button onclick="checkedEmpty(), logIn(), redirect()">Đăng nhập</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Xin chào!</h1>
+                    <p>Để kết nối với chùng tôi hãy đăng nhập tài khoản của bạn</p>
+                    <button class="ghost" id="signIn">Đăng nhập</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Xin chào!</h1>
+                    <p>Hãy điền thông tin cá nhân của bạn và gia nhập với chúng tôi</p>
+                    <button class="ghost" id="signUp">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-item">
+           
+            <div class="social-footer">
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100079317026136">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a></li>
+                   <hr>
+                   <hr>
+                
+                    <hr>
+                    
+                    <li><a target="_blank" href="https://www.google.com/intl/vi/gmail/about/">
+                      <i class="fa fa-envelope-o"></i>
+                       
+                      <a href="tel:(028) 2253 8549">
+                          <i class="fa fa-phone"></i>
+                          <span>(028) 2253 8549</span></a>
+            </div>
+        </div>
+      </footer>
+      <script src="start.js"></script> 
+    </body>
+</html>

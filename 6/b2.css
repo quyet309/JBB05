@@ -1,0 +1,48 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+ #nato img{
+        width:70px;
+        margin-left: 200px;
+
+    }
+    nav {
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      
+      nav .content-nav {
+        display: flex;
+        line-height: 2rem;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 60%;
+        margin:10px
+      }
+      
+      nav .content-nav ul {
+        display: flex;
+      }
+      
+      nav .content-nav ul li a {
+        text-decoration: none;
+        color: #43433e;
+        text-transform: uppercase;
+        padding: 0 15px;
+        font-weight: 500;
+      }
+      
+      nav .content-nav ul li a:hover {
+        color: #fff;
+      }
+li{
+   list-style:none
+}
+.main{
+    margin-bottom: 50px;
+}

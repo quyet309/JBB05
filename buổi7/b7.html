@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Buoi7.css">
+    <script src="https://cdn.tailwindcss.com"></script> <!-- link to tailwindcss -->
+</head>
+<body>
+    <div class="flex flex-1 justify-center items-center h-screen flex-col">
+        <h1 class="text-[40px] text-blue-500">Hello Buoi 7</h1>
+        <!-- Phần đồng hồ đếm ngược -->
+        <p class='text-[60px] text-blue-500 font-semibold' id="counter"></p>
+        <div class="mt-4 flex flex-row gap-x-4">
+            <div onclick="handleCounter()"  class="px-4 py-2 rounded-lg bg-red-500 text-white cursor-pointer hover:bg-red-400  active:bg-blue-400">
+                Start Count
+            </div>
+            <div onclick="handleStop()"  class="px-4 py-2 rounded-lg bg-red-500 text-white cursor-pointer hover:bg-red-400 active:bg-blue-400">
+                Stop Count
+            </div>
+        </div>
+        <!-- hết phần đồng hồ đếm ngược -->
+        <!-- phần chữ nhấp nháy -->
+        <p id="blink" class="mt-8 text-[32px] font-semibold text-red-500"> Chúc mừng năm mới</p>
+
+        <!-- Hết phần chữ nhấp nháy -->
+       
+
+    </div>
+
+
+
+
+
+    <div class="galery">
+        <div style="background-image: url('https://verbalearn.com/wp-content/uploads/2019/10/wibu-la-gi.jpg');"></div>
+        <div style="background-image: url('https://verbalearn.com/wp-content/uploads/2019/10/wibu-la-gi.jpg');"></div>
+        <div style="background-image: url('https://verbalearn.com/wp-content/uploads/2019/10/wibu-la-gi.jpg');"></div>
+        <div style="background-image: url('https://verbalearn.com/wp-content/uploads/2019/10/wibu-la-gi.jpg');"></div>
+        <div style="background-image: url('https://verbalearn.com/wp-content/uploads/2019/10/wibu-la-gi.jpg');"></div>
+
+    </div>
+
+
+    <script src="../javascript/Buoi7.js"></script>
+</body>
+</html>

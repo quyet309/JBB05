@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping-cart</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="6.css" /> 
+      
+</head>
+
+<body>
+
+    
+    <header>
+        <nav>
+          
+            <div id="nato">
+                <img src="logo pím.png" alt="" />
+            </div>
+            <div class="content-nav">
+                <ul>
+                    <li><a href="6.HTML">Trang Chủ</a></li>
+                   
+                    <li><a href="contact.html">Liên Hệ</a></li>
+                    <li><a href="giới thiệu.html">Giới Thiệu</a></li>
+                    <li>
+                    <a href="signupin.html">Đăng nhập</a>
+                   
+
+                
+                </li>
+                <form>
+                    
+             
+                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                
+                </ul>
+              
+               
+             
+            </div>
+            <!-- The Modal -->
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                Giỏ Hàng
+            </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                           
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div> 
+            
+        </nav>
+        
+
+    </header>
+
+   
+<html>
+<head>
+     
+    
+    <section class="wrapper">
+        <div class="products">
+            <ul>
+                <!-- < ảnh 1 --> 
+                 <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="317131723_858716958614017_9063228446946434246_n.png"
+                            alt=""  id="line">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">áo của VHT</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>  
+                     
+                  <div id="main"  
+                 >
+                   <div class="product">
+                       <button id="demo">X  </button>   
+                   </div>
+                   <img class="img_ex focus_product"
+                         src="sổ gáy xoắn.jpg"
+                         alt="">
+                       
+               </div> 
+                <!-- Ảnh 2 --> 
+                 </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="sổ gáy xoắn.jpg"
+                            alt="" id="liner">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Sổ gáy xoắn</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">39000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    <!-- PIC2  -->
+                    <div id="mainer">
+            
+                        <div class="producter">
+                            <button id="demoer">X </button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="download (1).jpg"
+                              alt="">
+                    </div>
+                
+                 
+                </li> 
+                 <!-- Ảnh 3 --> 
+                 <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="thanh tẩy trơn.jpg"
+                            alt="" id="linerr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Thanh tẩy trơn</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">19000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                     <!-- PIC3--> 
+                     <div id="mainerr">
+            
+                        <div class="producter">
+                            <button id="demoerr">X  </button>
+                        </div>
+                        
+                        <img class="img_ex focus_product"
+                              src="1.jpg"
+                              alt="">
+                    </div>
+                   
+                       
+                </li>
+                 <!-- Ảnh 4  -->
+                 <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="túi bút bông bánh mì.jpg"
+                            alt="" id="linerrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Túi bút bông bánh mì</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">89000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    <!-- < PIC4 --> 
+                     <div id="mainerrr">
+            
+                        <div class="producter">
+                            <button id="demoerrr">X</button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="02.-Co-tru-Old-zproduct.webp"
+                              alt="">
+                    </div>
+                </li> 
+                <!-- Ảnh 5 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="túi bút vải nhung.jpg"
+                            alt="" id="linerrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">túi bút vải nhung
+                        </h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">79000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div> 
+                    <!-- PIC5 -->
+                    <div id="mainerrrr">
+            
+                        <div class="producter">
+                            <button id="demoerrrr">X</button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="2.jpg"
+                              alt="">
+                    </div>
+                </li>
+                <!-- ẢNH 6 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="túi bút vải động vật.jpg"
+                            alt="" id="linerrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Túi bút vải động vật</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">115000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                    <!-- PIC6 -->
+                    <div id="mainerrrrr">
+            
+                        <div class="producter ">
+                            <button id="demoerrrrr">X</button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="4.jpg"
+                              alt="">
+                    </div>
+                </li>
+                <!-- Ảnh 7 -->
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="vở A5.jpg"
+                            alt="" id="linerrrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Vở A5</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">15000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                    <!-- PIC7 -->
+                     <div id="mainerrrrrr">
+            
+                        <div class="producter ">
+                            <button id="demoerrrrrr">X</button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="5.jpg"
+                              alt="">
+                    </div>
+                </li> 
+                <!-- <-- Ảnh 8 --> 
+                 <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd"
+                            src="vở b5 hoa đào.jpg"
+                            alt="" id="linerrrrrrr">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Vở B5 hoa anh đào</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">25000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div> 
+                    </div>
+                    <!-- PIC8 -->
+                     <div id="mainerrrrrrr">
+            
+                        <div class="producter ">
+                            <button id="demoerrrrrrr">X</button>
+                        </div>
+                        <img class="img_ex focus_product"
+                              src="OIP.jpg"
+                              alt="">
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+       
+          
+          <div id="wrapper">
+            <div class="headline">
+              <h5>
+                Sản phẩm bán chạy
+              </h5>
+            </div>
+            <div class="products"> 
+                <ul>
+                    <!-- ảnh 1 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="bút dao trố.jpg"
+                                alt=""  id="line">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Bút dao trố</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">25000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div> 
+                        <!-- PIC1 -->
+                      <div id="main"   
+                     >
+                       <div class="product">
+                           <button id="demo">X  </button>   
+                       </div>
+                       <img class="img_ex focus_product"
+                             src=""
+                             alt="">
+                           
+                   </div> 
+                   <!-- Ảnh 2 -->
+                    </li>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="Vở B5 Lazzy.jpg"
+                                alt="" id="liner">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Vở b5 lazzy</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">32000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        <!-- PIC2 -->
+                        <div id="mainer">
+                
+                            <div class="producter">
+                                <button id="demoer">X </button>
+                            </div>
+                            <img class="img_ex focus_product"
+                                  src="download (1).jpg"
+                                  alt="">
+                        </div>
+                    
+                     
+                    </li>
+                    <!-- Ảnh 3 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="vở b5 phong cảnh.jpg"
+                                alt="" id="linerr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Vở b5 phong cảnh</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">31000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        <!-- PIC3-->
+                        <div id="mainerr">
+                
+                            <div class="producter">
+                                <button id="demoerr">X  </button>
+                            </div>
+                            
+                            <img class="img_ex focus_product"
+                                  src="1.jpg"
+                                  alt="">
+                        </div>
+                       
+                          
+                    </li>
+                    <!-- Ảnh 4 -->
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="vở b5 tranh vẽ.jpg"
+                                alt="" id="linerrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Vở b5 tranh vẽ</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">30000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        <!-- PIC4 -->
+                        <div id="mainerrr">
+                
+                            <div class="producter">
+                                <button id="demoerrr">X</button>
+                            </div>
+                            <img class="img_ex focus_product"
+                                  src="02.-Co-tru-Old-zproduct.webp"
+                                  alt="">
+                        </div>
+                    </li>
+                    <!-- Ảnh 5 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="set ngòi bút bi nước.jpg"
+                                alt="" id="linerrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Set ngòi bút bi nước
+                            </h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">41000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        <!-- PIC5 -->
+                        <div id="mainerrrr"> 
+                
+                            <div class="producter">
+                                <button id="demoerrrr">X</button>
+                            </div>
+                            <img class="img_ex focus_product"
+                                  src="2.jpg"
+                                  alt="">
+                        </div>
+                    </li>
+                    <!-- ẢNH 6 -->
+                     <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="set con dấu sumiko.jpg"
+                                alt="" id="linerrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Set con dấu sumiko</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">115000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                         <!-- PIC6 --> 
+                         <div id="mainerrrrr">
+                
+                            <div class="producter ">
+                                <button id="demoerrrrr">X</button>
+                            </div>
+                            <img class="img_ex focus_product"
+                                  src="4.jpg"
+                                  alt="">
+                        </div>
+                    </li> 
+                    <!-- Ảnh 7 -->
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="set con dấu dino.jpg"
+                                alt="" id="linerrrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Set con dấu dino</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">120000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        
+                    </li> 
+                    <!-- Ảnh 8 -->
+                    <li class="main-product no-margin">
+                        <div class="img-product">
+                            <img class="img-prd"
+                                src="collect book đen.jpg"
+                                alt="" id="linerrrrrrr">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">collect book đen</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">38000đ</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                        
+                       
+                     </li>
+    
+                </ul>
+            </div> 
+           
+            
+    </section>
+     
+    <footer>
+        <div class="footer-item">
+            <div class="img-footer">
+                <img src="img/logo.png" alt="" />
+                
+      
+            </div>
+            <div class="social-footer">
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100079317026136">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a></li>
+                   <hr>
+                   <hr>
+                
+                    <hr>
+                    
+                    <li><a target="_blank" href="https://www.google.com/intl/vi/gmail/about/">
+                      <i class="fa fa-envelope-o"></i>
+                       
+                      <a href="tel:0868733056">
+                          <i class="fa fa-phone"></i>
+                          <span>0868733056</span></a>
+            </div>
+        </div>
+      </footer>
+    
+
+</html>

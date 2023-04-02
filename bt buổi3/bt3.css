@@ -1,0 +1,101 @@
+.absolute {
+    position: absolute;
+}
+.absolute img{height:800px;
+    width:1200px;
+    
+
+}
+  
+  
+.logo img{
+    width:80px;
+    margin-left:10rem;
+    margin-top:3rem;
+    position: relative;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.content{
+    position: relative;
+    
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        line-height: 5rem;
+        
+  
+  
+  }
+  nav .content ul {
+    display: flex;
+    text-transform: uppercase;
+
+  }
+  
+  
+  nav {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+   
+    position: relative;
+  }
+  
+  nav .content-nav {
+    display: flex;
+    line-height: 12rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+  }
+  
+  nav .content-nav ul {
+    display: flex;
+    list-style:none
+  
+  }
+  
+  nav .content-nav ul li a {
+    text-decoration: none;
+    color: #43433e;
+    text-transform: uppercase;
+    padding: 0 40px;
+    font-weight: 500;
+  }
+  
+  nav .content-nav ul li a:hover {
+    color: #fff;
+    
+  }
+  .theintro{
+position: relative;
+
+  }
+  #review{
+    margin-top:6rem;
+    margin-left:5rem;
+    font-size: 30px;
+    font-family:arial
+    
+  
+ }
+ #btn{
+    padding:12px 45px;
+    border-radius: 2rem;
+    border: 1px solid #ff9c2b;
+ }
+ #ntb{
+    padding:12px 45px;
+    border-radius: 2rem;
+    border: 1px solid #ff9c2b;
+ }
+ @media all and (max-width: 480px) {
+    
+ }
